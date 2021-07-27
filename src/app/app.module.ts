@@ -5,13 +5,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 //Modules
 import { AppRoutingModule } from './app-routing.module';
+import { AdminModule } from './@admin/pages/admin.module';
+import { PublicModule } from './@public/pages/public.module';
 
 @NgModule({
   declarations: [
     AppComponent    
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,    
+    AdminModule,
+    PublicModule,
     AppRoutingModule
   ],
   providers: [],
