@@ -1,0 +1,6 @@
+@import url("./../../../pages/admin.component.css");
+
+h1{
+    color:#181F2C;
+    font-size: larger !important;
+}

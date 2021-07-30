@@ -1,1 +1,9 @@
 @import url("./../../../pages/admin.component.css");
+
+#sidebar-wrapper{
+    background-color: #181F2C;
+}
+.sidebar-heading a{
+    color:whitesmoke;
+    text-decoration: none;
+}
